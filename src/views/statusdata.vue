@@ -145,7 +145,7 @@ export default {
           .get(this.url, options)
           .then((red) => {
             this.searchall = red.data;
-            // console.log(this.searchall);
+            console.log(this.searchall);
           });
       } else {
         const options = {
@@ -158,7 +158,7 @@ export default {
           .get(this.url, options)
           .then((red) => {
             this.searchall = red.data;
-            // console.log(this.searchall);
+            console.log(this.searchall);
           });
       }
     },
