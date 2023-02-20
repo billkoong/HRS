@@ -81,7 +81,7 @@
             <p v-if="item.status == 'อนุมัติแล้วกำลังดำเนินการซ่อม'" style="color: #FF9500;" > {{ item.status }}</p>
             <p v-if="item.status == 'ไม่ผ่านการอนุมัติ'" style="color: #ff0000;" > {{ item.status }}</p>
         </td>
-        <td><button @click="check(item.ID_RP)" id="btn" >ตรวจสอบ</button></td>
+        <td><button @click="check(item[0].ID_RP)" id="btn" >ตรวจสอบ</button></td>
       </tr>
     </table>
   </div> 
