@@ -131,6 +131,7 @@ export default {
       axios
         .get(this.url , options2)
         .then((red) => {
+          console.log(red.data);
           this.getdata = red.data;
           if(this.getdata[0].status == "อนุมัติแล้วกำลังดำเนินการซ่อม"){
             this.action = "กรรมการตรวจรับพัสดุเรียบร้อยแล้ว"
