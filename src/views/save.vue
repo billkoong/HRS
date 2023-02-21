@@ -31,27 +31,27 @@
         <tr>
           <td>1</td>
           <td>
-        <tr v-for="(item, index) in getdata[0]" :key="index">
+        <tr v-for="(item, index) in getdata" :key="index">
           <td v-if="getdata[0][index].RP_property"><br>{{ getdata[0][index].RP_property }} </td>
         </tr>
         </td>
         <td>
-          <tr v-for="(item, index) in getdata[0]" :key="index">
+          <tr v-for="(item, index) in getdata" :key="index">
             <td v-if="getdata[0][index].RP_property"><br>{{ getdata[0][index].RP_property_number }}</td>
           </tr>
         </td>
         <td>
-          <tr v-for="(item, index) in getdata[0]" :key="index">
+          <tr v-for="(item, index) in getdata" :key="index">
             <td v-if="getdata[0][index].RP_property"><br>{{ getdata[0][index].RP_disrepair }}</td>
           </tr>
         </td>
         <td >
-          <tr v-for="(item, index) in getdata[0]" :key="index" >
+          <tr v-for="(item, index) in getdata" :key="index" >
             <td v-if="getdata[0][index].RP_property" ><br>{{ getdata[0][index].RC_limit }}</td>
           </tr>
         </td>
         <td>
-          <tr v-for="(item, index) in getdata[0]" :key="index">
+          <tr v-for="(item, index) in getdata" :key="index">
             <td v-if="getdata[0][index].RP_property"><br>{{ getdata[0][index].RC_latest_limit }}</td>
           </tr>
         </td>
