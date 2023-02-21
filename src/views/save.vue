@@ -59,7 +59,7 @@
       </table>
     </div>
     <br>
-    <p id="namerpman">ชื่อผู้ตรวจเซ็ก : {{ getdata[0].RC_name }}</p>
+    <p id="namerpman">ชื่อผู้ตรวจสอบ : {{ getdata[0].RC_name }}</p>
     <p id="datecheck">วันที่ตรวจสอบ : {{ getdata[0].RC_date }}</p>
     <!-- <h2>เวลาที่ตรวจสอบ :{{getdataMPY[0].adminName}}</h2> -->
     <p id="result">ตรวจสอบการชำรุดแล้วพบว่า :   {{ getdata[0].RC_result }} </p>
@@ -211,6 +211,10 @@ export default {
   display: flex;
   font-size: 140%;
   font-weight: 600;
+}
+samp {
+  position: relative;
+  top: 40px;
 }
 
 #date,
