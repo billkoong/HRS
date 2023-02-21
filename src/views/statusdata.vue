@@ -65,7 +65,7 @@
         <th>หมายเลขครุภัณฑ์</th>
         <th>สภาพชำรุดโดยละเอียด</th>
         <th>สถานะ</th>
-        <th>รายละเอียด</th>
+        <th></th>
       </tr>
       <tr v-for="(item, index) in searchall" :key="index" >
         <td style="text-align: center;">{{ index + 1 }}</td>
